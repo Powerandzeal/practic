@@ -29,13 +29,13 @@ public class Main {
 //        begemot.meow();
 
         murzik.addFriend(begemot);
-        murzik.addFriend(sharik);
-        murzik.addFriend(kesha);
+       // murzik.addFriend(sharik);
+//        murzik.addFriend(kesha);
 //        System.out.println();
 
-//        for (Pet friend : murzik.getFriends()) {
-//            System.out.println(friend.getName());
-//        }
+        for (Pet friend : murzik.getFriends()) {
+            System.out.println(friend.getName());
+        }
 
 
 
